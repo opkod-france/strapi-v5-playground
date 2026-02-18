@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "custom_content_show_cases",
+  "info": {
+    "singularName": "custom-content-show-case",
+    "pluralName": "custom-content-show-cases",
+    "displayName": "CustomContentShowCase"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "customField",
+      "customField": "plugin::rrule.rrule"
+    }
+  }
+}
