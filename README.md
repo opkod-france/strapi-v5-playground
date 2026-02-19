@@ -4,19 +4,12 @@ A demo application showcasing the Strapi v5 plugins developed by [opkod-france](
 
 ## Plugins
 
-### Installed
-
 | Plugin | Description |
 |--------|-------------|
 | [strapi-plugin-opening-hours](https://github.com/opkod-france/strapi-plugin-opening-hours) | Custom field for managing business opening hours with split shifts and special/holiday hours |
-| [strapi-provider-email-brevo](https://github.com/opkod-france/strapi-provider-email-brevo) | Brevo (Sendinblue) email provider using Transactional Email API |
-
-### Coming Soon
-
-| Plugin | Description |
-|--------|-------------|
-| [strapi-plugin-rrule](https://github.com/opkod-france/strapi-plugin-rrule) | Recurrence rule plugin for Strapi |
+| [strapi-plugin-rrule](https://github.com/opkod-france/strapi-plugin-rrule) | Recurrence rule custom field for events and schedules (RFC 5545) |
 | [strapi-plugin-component-usage](https://github.com/opkod-france/strapi-plugin-component-usage) | Track and manage component usage across content types with dependency visualization |
+| [strapi-provider-email-brevo](https://github.com/opkod-france/strapi-provider-email-brevo) | Brevo (Sendinblue) email provider using Transactional Email API |
 
 ## Getting Started
 

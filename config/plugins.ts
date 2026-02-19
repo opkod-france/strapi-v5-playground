@@ -4,6 +4,12 @@ const config = ({ env }: Core.Config.Shared.ConfigParams): Core.Config.Plugin =>
   'opening-hours': {
     enabled: true,
   },
+  rrule: {
+    enabled: true,
+  },
+  'component-usage': {
+    enabled: true,
+  },
   email: {
     config: {
       provider: '@opkod-france/strapi-provider-email-brevo',
