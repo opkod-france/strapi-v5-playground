@@ -15,6 +15,8 @@
     "upgrade:dry": "npx @strapi/upgrade latest --dry"
   },
   "dependencies": {
+    "@opkod-france/strapi-plugin-opening-hours": "^1.0.2",
+    "@opkod-france/strapi-provider-email-brevo": "^4.0.0",
     "@strapi/plugin-cloud": "5.36.1",
     "@strapi/plugin-users-permissions": "5.36.1",
     "@strapi/strapi": "5.36.1",
