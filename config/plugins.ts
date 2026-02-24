@@ -7,9 +7,9 @@ const config = ({ env }: Core.Config.Shared.ConfigParams): Core.Config.Plugin =>
   rrule: {
     enabled: true,
   },
-  // 'component-usage': {
-  //   enabled: true,
-  // },
+  'component-usage': {
+    enabled: false,
+  },
   // email: {
   //   config: {
   //     provider: '@opkod-france/strapi-provider-email-brevo',
