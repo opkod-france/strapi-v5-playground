@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "Event"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": ["Workshop", "Conference", "Meetup", "Webinar"],
+      "required": true
+    },
+    "location": {
+      "type": "string"
+    },
+    "recurrence": {
+      "type": "customField",
+      "customField": "plugin::rrule.rrule"
+    }
+  }
+}
