@@ -8,7 +8,7 @@ const config = ({ env }: Core.Config.Shared.ConfigParams): Core.Config.Plugin =>
     enabled: true,
   },
   'component-usage': {
-    enabled: false,
+    enabled: true,
   },
   // email: {
   //   config: {
